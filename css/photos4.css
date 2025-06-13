@@ -603,4 +603,7 @@ form .submit-btn:hover{
         width: 40%;
         font-size: 13px;
     }
+    .portfolio-content img {
+        width: 90% !important;
+    }
 }

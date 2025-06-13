@@ -659,6 +659,8 @@ form .submit-btn:hover{
         flex-direction: column;
         background: #000;
         transition: all .6s ease-in-out;
+        overflow-y: auto;
+        z-index: 999;
     }
     .menulist a{
         display: block;
@@ -689,5 +691,34 @@ form .submit-btn:hover{
         padding: 13px 27px;
         width: 40%;
         font-size: 13px;
+    }
+    .row-left h3 {
+        font-size: 20px;
+    }
+    .row-left h6 {
+        font-size: 12px;
+    }
+    .row-right i {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+    }
+    .video-title {
+        font-size: 1.7rem;
+    }
+    .video-description {
+        font-size: 1rem;
+    }
+    .video-container {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .video-container video {
+        width: auto !important;
+        max-width: 100%;
+        height: auto !important;
+        max-height: 300px;
+        display: block;
+        margin: 0 auto;
     }
 }
